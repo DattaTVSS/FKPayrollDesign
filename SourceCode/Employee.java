@@ -7,10 +7,10 @@ public class Employee {
     public String name;
     public EmpType eTyp; 
     public PaymentMode classification;
-    // public boolean intoCommission = false;
-    // public CommissionMode cmode = null;
-    // public boolean inUnion;
-    // public Union member = null;
+    public boolean intoCommission = false;
+    public CommissionMode cmode = null;
+    public boolean inUnion;
+    public Union member = null;
 
     public Employee(int empId, String name,EmpType em,double wage) {
         this.empId = empId;
